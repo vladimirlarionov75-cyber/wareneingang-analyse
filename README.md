@@ -66,8 +66,9 @@ Drei Verbesserungsvorschläge – Voranmeldung mit Zeitfenster, Ursachenklärung
 │   ├── abb3_verteilung_schritte.png
 │   └── abb4_warenart_paletten.png
 ├── 04_Projektdokumentation/
-│   ├── 02_Projektdokumentation.pdf    # Projektdokumentation
-│   └── datenfluss_wareneingang.drawio # Datenfluss-Diagramm (draw.io-Quelle)
+│   ├── 01_Projektantrag_Wareneingang.pdf # Projektantrag
+│   ├── 02_Projektdokumentation.pdf      # Projektdokumentation
+│   └── datenfluss_wareneingang.drawio   # Datenfluss-Diagramm (draw.io-Quelle)
 ├── requirements.txt
 ├── .gitignore
 └── README.md
