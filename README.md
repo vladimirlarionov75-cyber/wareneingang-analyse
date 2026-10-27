@@ -51,7 +51,8 @@ Drei Verbesserungsvorschläge – Voranmeldung mit Zeitfenster, Ursachenklärung
 ├── 01_Rohdaten/
 │   └── wareneingang_roh.csv           # Rohdaten: 2.109 Zeilen (wird nie verändert)
 ├── 02_Notebooks/
-│   └── analyse_wareneingang.ipynb     # vollständige Analyse inkl. Tests
+│   |── analyse_wareneingang.ipynb     # vollständige Analyse inkl. Tests
+|   ├── generate_wareneingang.py       # Erzeugung der synthetischen Daten
 ├── 03_Ergebnisse/
 │   ├── wareneingang_bereinigt.csv     # bereinigte Daten inkl. abgeleiteter Merkmale
 │   ├── datenfehler_liste.csv          # entfernte Zeilen mit Fehlergrund
