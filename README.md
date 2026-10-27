@@ -1,6 +1,6 @@
 # Datenbasierte Analyse der Durchlaufzeiten im Wareneingang eines Logistikzentrums
 
-Analysprojekt in Python: Auswertung von rund 2.100 Prozessdaten eines Wareneingangs, statistische Ermittlung von Verzögerungsursachen und wirtschaftlich bewertete Verbesserungsvorschläge.
+Analyseprojekt in Python: Auswertung von rund 2.100 Prozessdaten eines Wareneingangs, statistische Ermittlung von Verzögerungsursachen und wirtschaftlich bewertete Verbesserungsvorschläge.
 
 **Kontext:** Übungsprojekt im Rahmen meiner Umschulung zum Fachinformatiker für Daten- und Prozessanalyse. Das Unternehmen (MainLogistik GmbH) und alle Daten sind synthetisch; personenbezogene Daten sind nicht enthalten.
 
@@ -50,7 +50,7 @@ Drei Verbesserungsvorschläge – Voranmeldung mit Zeitfenster, Ursachenklärung
 ```
 ├── 01_Rohdaten/
 │   └── wareneingang_roh.csv           # Rohdaten: 2.109 Zeilen (wird nie verändert)
-├── 02_Notebook/
+├── 02_Notebooks/
 │   └── analyse_wareneingang.ipynb     # vollständige Analyse inkl. Tests
 ├── 03_Ergebnisse/
 │   ├── wareneingang_bereinigt.csv     # bereinigte Daten inkl. abgeleiteter Merkmale
@@ -65,7 +65,8 @@ Drei Verbesserungsvorschläge – Voranmeldung mit Zeitfenster, Ursachenklärung
 │   ├── verbesserungen.csv             # Maßnahmen mit Kosten, Nutzen, Amortisation
 │   ├── abb3_verteilung_schritte.png
 │   └── abb4_warenart_paletten.png
-├── 04_Dokumentation/
+├── 04_Projektdokumentation/
+│   ├── 02_Projektdokumentation.pdf    # Projektdokumentation
 │   └── datenfluss_wareneingang.drawio # Datenfluss-Diagramm (draw.io-Quelle)
 ├── requirements.txt
 ├── .gitignore
@@ -82,7 +83,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Anschließend `02_Notebook/analyse_wareneingang.ipynb` öffnen und **Restart Kernel and Run All Cells** ausführen. Das Notebook läuft vollständig von oben nach unten, prüft die Datenqualität, berechnet alle Kennzahlen und Tests und erzeugt die Ergebnisdateien neu. Die Ordnernamen im Repository entsprechen genau den Pfaden im Notebook – die Analyse läuft daher unverändert. Getestet mit Python 3, pandas/NumPy/SciPy/statsmodels/Matplotlib in aktuellen Versionen (siehe `requirements.txt`).
+Anschließend `02_Notebooks/analyse_wareneingang.ipynb` öffnen und **Restart Kernel and Run All Cells** ausführen. Das Notebook läuft vollständig von oben nach unten, prüft die Datenqualität, berechnet alle Kennzahlen und Tests und erzeugt die Ergebnisdateien neu. Die Ordnernamen im Repository entsprechen genau den Pfaden im Notebook – die Analyse läuft daher unverändert. Getestet mit Python 3, pandas/NumPy/SciPy/statsmodels/Matplotlib in aktuellen Versionen (siehe `requirements.txt`).
 
 ## Hinweise
 
