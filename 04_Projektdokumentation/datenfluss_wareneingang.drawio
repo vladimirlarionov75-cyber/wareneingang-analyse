@@ -1,0 +1,52 @@
+<mxfile host="Electron">
+  <diagram name="Datenfluss" id="datenfluss">
+    <mxGraphModel dx="1030" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;Datenquelle&lt;/b&gt;&lt;br&gt;Wareneingang" vertex="1">
+          <mxGeometry height="100" width="210" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;1 Einlesen und prüfen&lt;/b&gt;&lt;br&gt;Pandas" vertex="1">
+          <mxGeometry height="100" width="210" x="295" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;2 Bereinigen und Merkmale berechnen&lt;/b&gt;&lt;br&gt;Pandas" vertex="1">
+          <mxGeometry height="100" width="210" x="570" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;3 Analysieren&lt;/b&gt;&lt;br&gt;SciPy, Statsmodels" vertex="1">
+          <mxGeometry height="100" width="210" x="570" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;4 Visualisieren&lt;/b&gt;&lt;br&gt;Matplotlib" vertex="1">
+          <mxGeometry height="100" width="210" x="295" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;5 Vorschläge ableiten und bewerten&lt;/b&gt;&lt;br&gt;Kosten-Nutzen-Rechnung" vertex="1">
+          <mxGeometry height="100" width="210" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Arial;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;align=center;verticalAlign=middle;" value="&lt;b&gt;Auftraggeber und Fachbereich&lt;/b&gt;&lt;br&gt;Abnahme" vertex="1">
+          <mxGeometry height="100" width="210" x="20" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eD1" edge="1" parent="1" source="q" style="endArrow=classic;endFill=1;html=1;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=Arial;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;spacing=3;" target="p1" value="D1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD2" edge="1" parent="1" source="p1" style="endArrow=classic;endFill=1;html=1;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=Arial;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;spacing=3;" target="p2" value="D2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3" edge="1" parent="1" source="p2" style="endArrow=classic;endFill=1;html=1;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=Arial;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;spacing=3;" target="p3" value="D3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD4" edge="1" parent="1" source="p3" style="endArrow=classic;endFill=1;html=1;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=Arial;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;spacing=3;" target="p4" value="D4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD5" edge="1" parent="1" source="p4" style="endArrow=classic;endFill=1;html=1;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=Arial;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;spacing=3;" target="p5" value="D5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD6" edge="1" parent="1" source="p5" style="endArrow=classic;endFill=1;html=1;strokeWidth=3;fontSize=16;fontStyle=1;fontFamily=Arial;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;spacing=3;" target="a" value="D6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="higREkaJ33X5cmXGvBzf-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;direction=north;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;Ablage im Projektordner&lt;/b&gt;&lt;br style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;01_Rohdaten (schreibgeschützt)&lt;/span&gt;&lt;br style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;02_Notebook · 03_Ergebnisse&lt;/span&gt;&lt;br style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 18px;&quot;&gt;04_Dokumentation&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="485" x="295" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
