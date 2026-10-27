@@ -26,7 +26,7 @@ Wasserfallmodell mit neun Phasen (Analyse → Planung → Datenvorbereitung → 
 - Kruskal-Wallis-Test für Gruppenvergleiche (Lieferant, Warenart, Wochentag, Voranmeldung)
 - Multiple lineare Regression (OLS) mit Dummy-Variablen; Modellwahl über VIF und R²
 
-**Qualitätssicherung** – 11 automatisierte Tests am Ende des Notebooks, darunter Unverändertheit der Rohdaten (MD5), Plausibilitätsgrenzen, Nachrechnung aller Kennzahlen und Koeffizienten mit NumPy, Validierung des Regressionsmodells an 20 % Testdaten und ein Wiederholbarkeitstest des gesamten Laufes. Alle Tests bestanden.
+**Qualitätssicherung** – automatisierte Tests am Ende des Notebooks, darunter Unverändertheit der Rohdaten (MD5), Plausibilitätsgrenzen, Nachrechnung aller Kennzahlen und Koeffizienten mit NumPy, Validierung des Regressionsmodells an 20 % Testdaten und ein Wiederholbarkeitstest des gesamten Laufes. Alle Tests bestanden.
 
 ## Wichtigste Ergebnisse
 
