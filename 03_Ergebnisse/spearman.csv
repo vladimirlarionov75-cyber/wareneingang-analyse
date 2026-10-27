@@ -1,0 +1,4 @@
+﻿Merkmal;H0;Spearman_r;p_Wert;Entscheidung
+anzahl_paletten;Kein Zusammenhang zwischen anzahl_paletten und der Gesamtdurchlaufzeit;0.5178;0.0;H0 abgelehnt
+anzahl_positionen;Kein Zusammenhang zwischen anzahl_positionen und der Gesamtdurchlaufzeit;0.5384;0.0;H0 abgelehnt
+ankunftsstunde;Kein Zusammenhang zwischen ankunftsstunde und der Gesamtdurchlaufzeit;-0.027;0.2247;H0 nicht abgelehnt

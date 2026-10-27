@@ -1,0 +1,21 @@
+﻿;Koeffizient;p_Wert;CI_unten;CI_oben;Entscheidung
+const;46.874;0.0;43.978;49.769;H0 abgelehnt
+anzahl_paletten;2.447;0.0;2.172;2.723;H0 abgelehnt
+ankunftsstunde;-0.133;0.171;-0.323;0.057;H0 nicht abgelehnt
+lieferant_id_LF02;-1.216;0.116;-2.733;0.3;H0 nicht abgelehnt
+lieferant_id_LF03;7.337;0.0;5.641;9.033;H0 abgelehnt
+lieferant_id_LF04;-2.868;0.001;-4.566;-1.17;H0 abgelehnt
+lieferant_id_LF05;-1.077;0.263;-2.963;0.809;H0 nicht abgelehnt
+lieferant_id_LF06;1.366;0.168;-0.576;3.307;H0 nicht abgelehnt
+lieferant_id_LF07;9.191;0.0;7.146;11.236;H0 abgelehnt
+lieferant_id_LF08;-4.4;0.0;-6.828;-1.973;H0 abgelehnt
+warenart_Elektronik;14.619;0.0;13.037;16.201;H0 abgelehnt
+warenart_Gefahrgut;21.005;0.0;18.879;23.13;H0 abgelehnt
+warenart_Kühlware;8.714;0.0;7.332;10.097;H0 abgelehnt
+warenart_Sperrgut;2.147;0.025;0.27;4.024;H0 abgelehnt
+wochentag_name_Dienstag;-4.48;0.0;-5.935;-3.025;H0 abgelehnt
+wochentag_name_Donnerstag;-4.775;0.0;-6.264;-3.286;H0 abgelehnt
+wochentag_name_Freitag;-2.208;0.006;-3.783;-0.632;H0 abgelehnt
+wochentag_name_Mittwoch;-6.501;0.0;-8.02;-4.982;H0 abgelehnt
+avisiert_nein;7.34;0.0;5.934;8.745;H0 abgelehnt
+anzahl_positionen;1.546;0.0;1.347;1.744;H0 abgelehnt
